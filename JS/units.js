@@ -60,6 +60,7 @@ export function renderPage(data) {
         copyright.innerText = data.copyright;
         pageContainer.append(copyright);
     }
+    this.container.classList.remove('spinner');
 }
 
 export function yyyymmdd() {

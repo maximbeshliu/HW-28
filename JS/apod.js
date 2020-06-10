@@ -7,6 +7,7 @@ export function Apod(id) {
     let body = document.body;
     this.container = document.createElement('div');
     this.container.setAttribute('class', 'container');
+    this.container.setAttribute('class', 'spinner');
     this.container.setAttribute('id', this.id);
 
     this.addElement = add;
