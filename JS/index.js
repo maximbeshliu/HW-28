@@ -1,5 +1,4 @@
 import { Apod as PictureOfTheDay } from './apod.js';
 
 
-
-new PictureOfTheDay();
+window.apod = new PictureOfTheDay();
