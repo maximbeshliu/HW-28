@@ -36,20 +36,21 @@ html, body {
   background-color: #4095c6; }
 
 .main_container {
-  height: 100vh;
+ 
   font-family: 'Lora', serif;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px ;
   padding: 20px 0;
-  z-index: 2; }
+   }
   .main_container .image {
     margin: 20px 0; }
     .main_container .image #picture {
       width: 50vw;
       height: 50vh;
-      z-index: 2; }
+     }
   .main_container .explanation {
     width: 70vw;
     height: auto;
